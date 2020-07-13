@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background:url('./img/png/Rushia_p1.1.png') center fixed no-repeat;
+    background-size: cover;
+  }
+  nav{
+    background-color: #cf5ca9e8;
+    padding-bottom: 13px;
+    opacity: 0.75;
+    height: 35px;
+    
+  }
+  .navbar-brand{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    padding-left: 10px;
+    margin:0px;
+
+  }
+  .navbar-nav{
+    padding-left: 10px;
+  }
+  #navbarNav ul li{
+     display: inline;
+     padding:10px 15px 10px 15px;
+   }
+ .container{
+   margin: 5px;
+   margin-top: 0px;
+   padding-right: 5px;
+ }
+
+  .button1:active {
+     background-color: #ac4a9f;
+     box-shadow: 0 5px #666;
+     transform: translateY(4px);
+ }
+ .card1{
+     margin: 20px;
+   }
+
+  .space{
+    padding: 10px;
+    margin: 30px;      
+  }
+  
+ p{
+     padding-right: 60px;
+     padding-top: 15px;
+     font-size: 30px;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+     color: violet;
+     opacity: 0.9;
+  }
+
+.button2 {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    background-color: #ac4a9f;
+    border: none;
+    border-radius: 17px;
+    opacity: 0.92;
+    font-weight: 500;
+
+}
+
+.button2:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: radial-gradient(circle, #666 10%, transparent 10.01%);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: scale(10, 10);
+    opacity: 0;
+    transition: transform .3s, opacity .5s;
+
+}
+
+.button2:active:after {
+    transform: scale(0, 0);
+    opacity: .3;
+    transition: 0s;
+}
+
+ .card2{
+    padding: 0px 0px 10px 0px;
+    margin: 20px 20px 20px 0px;
+     }
+  .topdiv0{
+       column-count: 2!important;
+       
+  } 
+   .p1{
+     position: relative;  
+     padding:20px;
+     margin: 20px;
+     color: violet;
+     border-width: 2.3px;
+     border-style:outset;
+     border-radius:18px ;
+     width: 720px;
+     letter-spacing: .18em;
+   }
+   .p2{
+    position: relative;  
+    padding:20px;
+    margin: 20px;
+    border-width: 2.3px;
+    border-style:outset;
+    border-radius:18px ;
+    width: 820px;
+  }
+  .p1 .p2{
+    background: rgb(0, 0, 0,0.5);
+  }
+   footer{
+    background-color: #000000;
+    padding-bottom: 25.1px;
+    opacity: 0.5;
+   }
+   .footertext{
+        color: #ffffff;
+        height: 30px; 
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: .04em;
+        bottom: 0;
+        box-sizing: border-box;
+        width: 100%;
+        list-style: none;
+        text-align: center;
+   }
+  

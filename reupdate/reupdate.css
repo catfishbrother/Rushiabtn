@@ -1,0 +1,44 @@
+body{
+     background-color: black;
+}
+nav{
+    background-color: #bd51bde8;
+    padding-bottom: 13px;
+    opacity: 0.75;
+    height: 35px;
+    
+  }
+  .navbar-brand{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    padding-left: 10px;
+    margin:0px;
+
+  }
+  .navbar-nav{
+    padding-left: 10px;
+}
+ .topdiv{
+     column-count: 2!important;
+ }
+
+.p1{
+    position: relative;  
+    padding:30px;
+    margin: 80px 10px 10% 10px;
+    color: violet;
+    border-width: 2.3px;
+    border-style:outset;
+    border-radius:18px ;
+    width: 720px;
+    letter-spacing: .18em;
+  }
+  .space{
+    padding: 10px;
+    margin: 20px;
+          
+  }
+
+
