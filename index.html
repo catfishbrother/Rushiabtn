@@ -33,6 +33,21 @@
             </a>
           </li>
         </ul>   
+        <div class="dropdown show navbar-right">
+          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <svg xml="./img/png/lang.svg" viewBox="0 0 24 24" height="30" width="50" role="img" aria-hidden="true">
+            <path d="M12.87,15.07L10.33,12.56L10.36,12.53C12.1,10.59 13.34,8.36 14.07,6H17V4H10V2H8V4H1V6H12.17C11.5,7.92 10.44,9.75 9,11.35C8.07,10.32 7.3,9.19 6.69,8H4.69C5.42,9.63 6.42,11.17 7.67,12.56L2.58,17.58L4,19L9,14L12.11,17.11L12.87,15.07M18.5,10H16.5L12,22H14L15.12,19H19.87L21,22H23L18.5,10M15.88,17L17.5,12.67L19.12,17H15.88Z"></path>
+          </svg>
+          </a>
+        
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <button class="dropdown-item translate" id="zh-tw">繁體中文</button>
+            <button class="dropdown-item translate" id="zh-ch">简体中文</button>
+            <!-- <button class="dropdown-item translate" id="en-gb">English</button>
+            <button class="dropdown-item translate" id="jp">日本語</button> -->
+
+          </div>
+        </div>
       </div>   
       
     </div>
@@ -59,8 +74,8 @@
          <div class="container">
           <div class="topdiv0">
                <div class="p1">
-                   <h2 style="font-weight:bold;">歡迎來到Rushia吸毒網</h2>
-                   <br><h4>覺得人生好難嗎?工作下班回家好沒動力嗎?想要來點死靈法師嗎?點下去吧！按下這些按鈕並且大口大口的吸吧！</h4></br>
+                   <h2 class="lang" key="title" style="font-weight:bold;">歡迎來到Rushia吸毒網</h2>
+                   <br><h4 class="lang" key="content">覺得人生好難嗎?工作下班回家好沒動力嗎?想要來點死靈法師嗎?點下去吧！按下這些按鈕並且大口大口的吸吧！</h4></br>
                </div> 
               <div class="p1">
                    更新日誌
@@ -84,65 +99,65 @@
           <div class="container">
            <div class="card2">
              <div class="p2">
-               <h3 style="color: violet;">聲音控制選項</h3>
+               <h3 class="lang" key="聲音控制選項" style="color: violet;">聲音控制選項</h3>
                <audio id="audio"></audio>
-               <button class="btn-success button2" value="停止" onclick="myStop()" title="STOP是個別控制的">Stop</button>
+               <button class="btn-success button2 lang" key="stop" value="停止" onclick="myStop()" title="STOP是個別控制的">暫停</button>
              </div>
         
             <div class="p2">
-            <h2 style="color: violet;">可愛可愛愛</h2>
+            <h2 class="lang" key="可愛可愛愛" style="color: violet;">可愛可愛愛</h2>
             <audio id="audio1"></audio>
-            <button class="btn-success button2" onclick="play('./img/自我介紹.mp3')">自我介紹</button>
-            <button class="btn-success button2" onclick="play('./img/bolilboli.mp3')" >波音波音波音</button>
-            <button class="btn-success button2" onclick="play('./img/Nanodesu.mp3')">nanodesu</button>
-            <button class="btn-success button2" onclick="play('./img/AYAYA.mp3')">阿呀呀</button>
-            <button class="btn-success button2" onclick="play('./img/大哥哥大姊姊.mp3')">大哥哥大姊姊</button>
-            <button class="btn-success button2" onclick="play('./img/我回來了.mp3')">我回來了</button>
-            <button class="btn-success button2" onclick="play('./img/喵.mp3')">喵</button>
-            <button class="btn-success button2" onclick="play('./img/I love u.mp3')">我愛你</button>
+            <button class="btn-success button2 lang" key="自我介紹" onclick="play('./img/自我介紹.mp3')">自我介紹</button>
+            <button class="btn-success button2 lang" key="波音波音波音" onclick="play('./img/bolilboli.mp3')" >波音波音波音</button>
+            <button class="btn-success button2 lang" key="nanodesu" onclick="play('./img/Nanodesu.mp3')">nanodesu</button>
+            <button class="btn-success button2 lang" key="阿呀呀" onclick="play('./img/AYAYA.mp3')">阿呀呀</button>
+            <button class="btn-success button2 lang" key="大哥哥大姊姊" onclick="play('./img/大哥哥大姊姊.mp3')">大哥哥大姊姊</button>
+            <button class="btn-success button2 lang" key="我回來了" onclick="play('./img/我回來了.mp3')">我回來了</button>
+            <button class="btn-success button2 lang" key="喵" onclick="play('./img/喵.mp3')">喵</button>
+            <button class="btn-success button2 lang" key="我愛你" onclick="play('./img/I love u.mp3')">我愛你</button>
 
 
            </div>
            <div class="p2">
-            <h2 style="color: violet;">叫啊!</h2>
+            <h2 class="lang" key="叫啊!" style="color: violet;">叫啊!</h2>
             <audio id="audio2"></audio>
-            <button class="btn-success button2" onclick="play('./img/大騙子.mp3')">大騙子</button>            
-            <button class="btn-success button2" onclick="play('./img/RushiRushi.mp3')">RushiRushi</button>
-            <button class="btn-success button2" onclick="play('./img/JOJOJOJOJOJOJO.mp3')">JOJOJOJO</button>
-            <button class="btn-success button2" onclick="play('./img/kamida.mp3')">神啊!</button>
-            <button class="btn-success button2" onclick="play('./img/RRRRRRRRRR.mp3')">RRRRRRRR</button>
-            <button class="btn-success button2" onclick="play('./img/RRRRRRRRRR2.mp3')">RRRRRRRR2</button>
-            <button class="btn-success button2" onclick="play('./img/嘶吼.mp3')">@$%^#%^@@</button>
+            <button class="btn-success button2 lang" key="大騙子" onclick="play('./img/大騙子.mp3')">大騙子</button>            
+            <button class="btn-success button2 lang" key="RushiRushi" onclick="play('./img/RushiRushi.mp3')">RushiRushi</button>
+            <button class="btn-success button2 lang" key="JOJOJOJO" onclick="play('./img/JOJOJOJOJOJOJO.mp3')">JOJOJOJO</button>
+            <button class="btn-success button2 lang" key="神啊" onclick="play('./img/kamida.mp3')">神啊!</button>
+            <button class="btn-success button2 lang" key="RRRRRRRR" onclick="play('./img/RRRRRRRRRR.mp3')">RRRRRRRR</button>
+            <button class="btn-success button2 lang" key="RRRRRRRR2" onclick="play('./img/RRRRRRRRRR2.mp3')">RRRRRRRR.2</button>
+            <button class="btn-success button2 lang" key="@$%^#%^@@" onclick="play('./img/嘶吼.mp3')">@$%^#%^@@</button>
 
 
 
            </div>
            <div class="p2">
-            <h2 style="color: violet;">名言佳句</h2>
+            <h2 class="lang" key="名言佳句" style="color: violet;">名言佳句</h2>
             <audio id="audio3"></audio> 
-            <button class="btn-success button2" onclick="play('./img/開甚麼玩笑!!!!(耳膜注意).mp3')">開甚麼玩笑!!!!(耳膜注意)</button>
-            <button class="btn-success button2" onclick="play('./img/為什麼騙我.mp3')">為什麼騙我 吶!</button>
-            <button class="btn-success button2" onclick="play('./img/你是誰.mp3')">你是誰?</button>
-            <button class="btn-success button2" onclick="play('./img/約定好了啊.mp3')">約定好了啊</button>
-            <button class="btn-success button2" onclick="play('./img/認清現實吧.mp3')">認清現實吧</button>
-            <button class="btn-success button2" onclick="play('./img/看啊!看啊!.mp3')">看啊!看啊!</button>
-            <button class="btn-success button2" onclick="play('./img/你給我記住.mp3')">你給我記住</button>
-            <button class="btn-success button2" onclick="play('./img/永不放棄.mp3')">永不放棄</button>
+            <button class="btn-success button2 lang" key="開甚麼玩笑!!!!(耳膜注意)" onclick="play('./img/開甚麼玩笑!!!!(耳膜注意).mp3')">開甚麼玩笑!!!!(耳膜注意)</button>
+            <button class="btn-success button2 lang" key="為什麼騙我 吶!" onclick="play('./img/為什麼騙我.mp3')">為什麼騙我 吶!</button>
+            <button class="btn-success button2 lang" key="你是誰?" onclick="play('./img/你是誰.mp3')">你是誰?</button>
+            <button class="btn-success button2 lang" key="約定好了啊" onclick="play('./img/約定好了啊.mp3')">約定好了啊</button>
+            <button class="btn-success button2 lang" key="認清現實吧" onclick="play('./img/認清現實吧.mp3')">認清現實吧</button>
+            <button class="btn-success button2 lang" key="看啊!看啊!" onclick="play('./img/看啊!看啊!.mp3')">看啊!看啊!</button>
+            <button class="btn-success button2 lang" key="你給我記住" onclick="play('./img/你給我記住.mp3')">你給我記住</button>
+            <button class="btn-success button2 lang" key="永不放棄" onclick="play('./img/永不放棄.mp3')">永不放棄</button>
 
 
 
            </div>
            <div class="p2">
-            <h2 style="color: violet;">粽子唱歌</h2>           
+            <h2 class="lang" key="粽子唱歌" style="color: violet;">粽子唱歌</h2>           
               <div class="card1">
                 <audio id="audio4"></audio>
-                <button class="btn-success button2" onclick="play('./img/okilo.mp3')">起床鬧鐘</button> 
-                <button class="btn-success button2" onclick="play('./img/別認輸.mp3')">別認輸</button> 
-                <button class="btn-success button2" onclick="play('./img/100給你.mp3')"> 君に100パーセント </button> 
-                <button class="btn-success button2" onclick="play('./img/幸福理論.mp3')">アヤノの幸福理論</button>
-                <button class="btn-success button2" onclick="play('./img/feel my soul.mp3')">feel my soul</button>
-                <button class="btn-success button2" onclick="play('./img/カワキヲアメク.mp3')">カワキヲアメク</button>
-                <button class="btn-success button2" onclick="play('./img/ハロハワユ .mp3')">ハロハワユ </button>
+                <button class="btn-success button2 lang" key="起床鬧鐘" onclick="play('./img/okilo.mp3')">起床鬧鐘</button> 
+                <button class="btn-success button2 lang" key="別認輸" onclick="play('./img/別認輸.mp3')">別認輸</button> 
+                <button class="btn-success button2 lang" key="君に100パーセント" onclick="play('./img/100給你.mp3')"> 君に100パーセント </button> 
+                <button class="btn-success button2 lang" key="アヤノの幸福理論" onclick="play('./img/幸福理論.mp3')">アヤノの幸福理論</button>
+                <button class="btn-success button2 lang" key="feel my soul" onclick="play('./img/feel my soul.mp3')">feel my soul</button>
+                <button class="btn-success button2 lang" key="カワキヲアメク" onclick="play('./img/カワキヲアメク.mp3')">カワキヲアメク</button>
+                <button class="btn-success button2 lang" key="ハロハワユ" onclick="play('./img/ハロハワユ .mp3')">ハロハワユ </button>
               </div>           
             </div>
            </div>
@@ -151,9 +166,9 @@
            
 
            <footer > 
-             <li class="footertext">作者:YiYu, &nbsp;特別感謝:google大神、島輝叔叔</li>
-             <li class="footertext">本站為愛好者作品，與hololive官方沒有任何關係，如有任何問題或建議歡迎discord找我 → 拒絕往來戶#6977</li>
-             <li class="footertext">
+             <li class="footertext lang" key="author">作者:YiYu, &nbsp;特別感謝:google大神、島輝叔叔</li>
+             <li class="footertext lang" key="stateman">本站為愛好者作品，與hololive官方沒有任何關係，如有任何問題或建議歡迎discord找我 → 拒絕往來戶#6977</li>
+             <li class="footertext lang" key="painter">
               背景圖畫師:KayJae
               <a  href="https://twitter.com/KayJae24" target="_blank" title="KayJae's twitter"> 
                <img src="./img/png/Twitter_Icon.png" width="24">
@@ -162,5 +177,7 @@
             </li>
            </footer> 
           </div>
+
+          <script src="./lang.js"></script>
     </body>
 </html>
