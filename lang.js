@@ -89,7 +89,7 @@ var arrLang = {
       "大騙子":"Cheater",
       "RushiRushi":"RushiRushi",
       "JOJOJOJO":"JOJOJOJO",
-      "神啊!":"God!",
+      "神啊":"God!",
       "RRRRRRRR":"RRRRRRRR",
       "RRRRRRRR2":"RRRRRRRR.2",
       "@$%^#%^@@":"@$%^#%^@@",
