@@ -76,7 +76,7 @@ var arrLang = {
       "stop":"Stop",
       "可愛可愛愛":"Cute",
       "叫啊!":"Roar!",
-      // "名言佳句":"Inspirational quotes",
+      "名言佳句":"Inspirational quotes",
       "粽子唱歌":"Zongzi singing",
       "自我介紹": "Self introduction",
       "波音波音波音":"BoingBoingBoing",
