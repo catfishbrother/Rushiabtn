@@ -1,5 +1,6 @@
 var arrLang = {
     "zh-ch": {
+      "top":" Rushia按钮",
       "title": "欢迎来到Rushia吸毒网",
       "content": "觉得人生好难吗?工作下班回家好没动力吗?想要来点死灵法师吗?点下去吧！按下这些按钮并且大口大口的吸吧！",
       "聲音控制選項":"声音控制选项",
@@ -38,8 +39,12 @@ var arrLang = {
       "renew":"2020.7.2 考量到空间问题设置连结集中更新" ,
       "renew0":"更新日志",
       "touchme":"点我点我",
+      "author":"作者:YiYu, 特别感谢:google大神、岛辉叔叔",
+      "stateman":"本站为爱好者作品，与hololive官方没有任何关系，如有任何问题或建议欢迎discord找我 → 拒絕往來戶#6977",
+      "painter":"背景图画师:KayJae",
     },
     "zh-tw": {
+      "top":"Rushia按鈕",
       "title": "歡迎來到Rushia吸毒網",
       "content": "覺得人生好難嗎?工作下班回家好沒動力嗎?想要來點死靈法師嗎?點下去吧！按下這些按鈕並且大口大口的吸吧！",
       "聲音控制選項":"聲音控制選項",
@@ -78,8 +83,12 @@ var arrLang = {
       "renew":"2020.7.2 考量到空間問題設置連結集中更新",
       "renew0":"更新日誌",
       "touchme":"點我點我",
+      "author":"作者:YiYu, 特別感謝:google大神、島輝叔叔",
+      "stateman":"本站為愛好者作品，與hololive官方沒有任何關係，如有任何問題或建議歡迎discord找我 → 拒絕往來戶#6977",
+      "painter":"背景圖畫師:KayJae",
     },
     "en-gb":{
+      "top":"Rushia_btn",
       "title": "Welcome to Rushia Drug Network",
       "content": "Do you think life is so difficult? Is it so unmotivated to go home from get off work? Do you want some necromancer? Click it! Press these buttons and suck it!",
       "聲音控制選項":"Sound control options",
@@ -118,6 +127,9 @@ var arrLang = {
       "renew":"2020.7.2 Considering spatial issues, setting links are centrally updated",
       "renew0":"Upadta log",
       "touchme":"Touch me",
+      "author":"Author: YiYu, Special thanks: google, Tank島輝",
+      "stateman":"This site is for fans, and has nothing to do with hololive. If you have any questions or suggestions, please discord me → 拒絕往來戶#6977",
+      "painter":"Background image Artist: KayJae",
     },
     // "jp":{
     //   "title": "",
