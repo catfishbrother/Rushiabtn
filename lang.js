@@ -42,6 +42,8 @@ var arrLang = {
       "author":"作者:YiYu, 特别感谢:google大神、岛辉叔叔",
       "stateman":"本站为爱好者作品，与hololive官方没有任何关系，如有任何问题或建议欢迎discord找我 → 拒絕往來戶#6977",
       "painter":"背景图画师:KayJae",
+      "marquee":"2020.7.30因应Hololive今次的版权问题将暂时停更音档，现有的不会删除还请安心食用",
+    
     },
     "zh-tw": {
       "top":"Rushia按鈕",
@@ -86,6 +88,8 @@ var arrLang = {
       "author":"作者:YiYu, 特別感謝:google大神、島輝叔叔",
       "stateman":"本站為愛好者作品，與hololive官方沒有任何關係，如有任何問題或建議歡迎discord找我 → 拒絕往來戶#6977",
       "painter":"背景圖畫師:KayJae",
+      "marquee":"2020.7.30 因應Hololive今次的版權問題將暫時停更音檔，現有的不會刪除還請安心食用",    
+    
     },
     "en-gb":{
       "top":"Rushia_btn",
@@ -130,6 +134,8 @@ var arrLang = {
       "author":"Author: YiYu, Special thanks: google, Tank島輝",
       "stateman":"This site is for fans, and has nothing to do with hololive. If you have any questions or suggestions, please discord me → 拒絕往來戶#6977",
       "painter":"Background image Artist: KayJae",
+      "marquee":"2020.7.30 In response to Hololive’s copyright issues this time, we will temporarily stop updating audio files. The existing ones will not be deleted. Please feel free to eat",
+
     },
     // "jp":{
     //   "title": "",

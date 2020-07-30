@@ -161,3 +161,11 @@ body{
         list-style: none;
         text-align: center;
    }
+
+   marquee{
+     padding: 50px;
+     color: violet;
+     background-color: hsl(0, 0%, 100%);
+     font-size: large;
+     opacity: 0.8;
+   }
